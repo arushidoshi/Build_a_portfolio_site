@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <!-- TODO: add logo and name in portfolio  -->
+        <div class="row">
+            <div class="col-md-6">
+                <img class="title-logo img-responsive" src="images/logo.png" alt="Udacity Logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin super-title">Jane Doette</h1>
+                <h4>Front-end Ninja</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <!-- TODO: add main portfolio image  -->
+        <div class="row">
+            <div class="col-md-12">
+                <img class="img-responsive title-logo" src="images/html.jpg" alt="Main portfolio image">
+            </div>
+        </div>
+        <div class="row">
+        <!-- TODO: add featured works in portfolio  -->
+            <div class="col-md-12">
+                <h2 class="text-muted">Featured Work</h2>
+            </div>
+        </div>
+        <div class="row text-center">
+        <!-- TODO: add app image, name and link to project  -->
+            <div class="col-md-4">
+                <picture>
+                    <source media="(min-width: 750px)" srcset="image/fruit-large2x.jpg 2x, image/fruit-large1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="image/fruit-medium.jpg" />
+                    <img class="img-responsive" src="image/fruit-small.jpg" alt="Appify Image showing fruits">
+                </picture>
+
+                <h3 class="text-uppercase app-title">Appify</h3>
+                <p>
+                    <a href="https://github.com/udacity/Appify">https://github.com/udacity/Appify</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <picture>
+                    <source media="(min-width: 750px)" srcset="image/flower-large2x.jpg 2x, image/flower-large1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="image/flower-medium.jpg" />
+                    <img class="img-responsive" src="image/flower-small.jpg" alt="Sunflower Image showing flower">
+                </picture>
+                <h3 class="text-uppercase app-title">Sunflower</h3>
+                <p>
+                    <a href="https://github.com/udacity/Sunflower">https://github.com/udacity/Sunflower</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <picture>
+                    <source media="(min-width: 750px)" srcset="image/puppy-large2x.jpg 2x, image/puppy-large1x.jpg" />
+                    <source media="(min-width: 500px)" srcset="image/puppy-medium.jpg" />
+                    <img class="img-responsive" src="image/puppy-small.jpg" alt="Bokeh Image showing a puppy">
+                </picture>
+                <h3 class="text-uppercase app-title">Bokeh</h3>
+                <p>
+                    <a href="https://github.com/udacity/Bokeh">https://github.com/udacity/Bokeh</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
